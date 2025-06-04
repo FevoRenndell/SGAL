@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "build:css": "postcss app.css -o public/output.css"
+    "build:css": "postcss src/index.css -o public/output.css"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.3",
